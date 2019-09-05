@@ -1,4 +1,5 @@
 import React from 'react';
+// import './App.css';
 import 'flexboxgrid';
 import './css/style.css';
 import Header from './components/Header';
@@ -18,7 +19,7 @@ class App extends React.Component {
           <Showcase />
         </div>
         <div className="container-fluid">
-          <Features/>
+          <Features />
         </div>
       </div>
     );

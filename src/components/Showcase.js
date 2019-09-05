@@ -17,17 +17,17 @@ const imgItems = [
     {
         src: './img/stacks.jpg',
         altText: 'Coins',
-        caption: ''
+        caption: 'Build a nest egg'
     },
     {
         src: './img/bookkeep.jpg',
         altText: 'Bookkeeping',
-        caption: ''
+        caption: 'Keep your books in order'
     },
     {
         src: './img/laptop.jpg',
         altText: 'Laptop and Charts',
-        caption: ''
+        caption: 'Chart your financial future'
     },
 ];
 
@@ -77,8 +77,8 @@ class Showcase extends React.Component {
                 onExited={this.onExited}
                 key={img.src}
                 >
-                    <img src={img.src} alt={img.altText} className="img-fluid"/>
-                    <CarouselCaption captionText={img.caption} captionHeader={img.caption} />
+                    <img src={img.src} alt={img.altText} className="img-fluid rounded"/>
+                    <CarouselCaption captionHeader={img.caption} />
                 </CarouselItem>
             );
         });
