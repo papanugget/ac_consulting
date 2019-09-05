@@ -2,20 +2,24 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import '@fortawesome/free-brands-svg-icons';
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const SiteNavbar = () => {
     return (
-        <div className="col-xs-12 col-sm-10 col-md-10 col-lg-10">
-            <Navbar color="faded" light expand="sm">
+        <div>
+            <Navbar color="faded" light fixed expand="lg">
                 <NavbarBrand href="/" className="mr-auto">Antoine Cole Consulting</NavbarBrand>
-                 <NavbarToggler className="mr-2" />
+                    <NavbarToggler className="mr-2" />
                     <Collapse navbar isOpen="true">
                         <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink>
+                            <NavLink href="/">
                                 Home
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/services/">
+                                Services
                             </NavLink>
                         </NavItem>
                         <NavItem>
