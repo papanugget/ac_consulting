@@ -5,6 +5,7 @@ import './css/style.css';
 import Header from './components/Header';
 import Showcase from './components/Showcase';
 import Features from './components/Features';
+import Footer from './components/Footer';
 
 class App extends React.Component {
   constructor(props) {
@@ -20,6 +21,9 @@ class App extends React.Component {
         </div>
         <div className="container-fluid">
           <Features />
+        </div>
+        <div>
+          <Footer/>
         </div>
       </div>
     );
