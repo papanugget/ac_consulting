@@ -48,17 +48,17 @@ class SiteNavbar extends React.Component {
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="https://instagram.com/come_stay_at_the_rockaways" target="_blank">
+                            <NavLink href="https://instagram.com/come_stay_at_the_rockaways" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={['fab', 'instagram']}/>
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="https://twitter.com" target="_blank">
+                            <NavLink href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={['fab', 'twitter']}/>
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="https://linkedin.com" target="_blank">
+                            <NavLink href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={['fab', 'linkedin']}/>
                             </NavLink>
                         </NavItem>
