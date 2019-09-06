@@ -1,8 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import '@fortawesome/free-brands-svg-icons';
-import { faInstagram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 class SiteNavbar extends React.Component {
     constructor(props) {
@@ -51,17 +49,17 @@ class SiteNavbar extends React.Component {
                         </NavItem>
                         <NavItem>
                             <NavLink href="https://instagram.com/come_stay_at_the_rockaways" target="_blank">
-                                <FontAwesomeIcon icon={faInstagram}/>
+                                <FontAwesomeIcon icon={['fab', 'instagram']}/>
                             </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="https://twitter.com" target="_blank">
-                                <FontAwesomeIcon icon={faTwitter}/>
+                                <FontAwesomeIcon icon={['fab', 'twitter']}/>
                             </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="https://linkedin.com" target="_blank">
-                                <FontAwesomeIcon icon={faLinkedin}/>
+                                <FontAwesomeIcon icon={['fab', 'linkedin']}/>
                             </NavLink>
                         </NavItem>
                         </Nav>

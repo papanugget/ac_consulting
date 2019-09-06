@@ -76,8 +76,10 @@ class Showcase extends React.Component {
                 onExiting={this.onExiting}
                 onExited={this.onExited}
                 key={img.src}
+                className="text-center"
                 >
-                    <img src={img.src} alt={img.altText} className="img-fluid rounded"/>
+                    <img src={img.src} alt={img.altText} className="img-fluid rounded
+                    "/>
                     <CarouselCaption captionHeader={img.caption} />
                 </CarouselItem>
             );

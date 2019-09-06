@@ -1,20 +1,23 @@
 import React from 'react';
-// import React from '@fortawesome/fontawesome-free';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
     return(
         <footer className="footer" id="main-footer">
             <div className="container-fluid">
-                <div className="row"  id="company">
+                <div className="row text-center"  id="company">
                     <div className="col-sm">
-                        Email
+                    < FontAwesomeIcon icon="envelope"/>  <a href="mailto:antoinecole@gmail.com">antoinecole@gmail.com</a>
                     </div>
                     <div className="col-sm">
-                        Phone
+                    < FontAwesomeIcon icon="phone-alt"/>  <a href="tel:19172950587">917-295-0587</a>
                     </div>
                     <div className="col-sm">
-                        Location
+                    < FontAwesomeIcon icon="map-pin"/>  <a href="https://goo.gl/maps/dLyfu9qHsL4CDBZh8" target="_blank">Far Rockaway, New York</a>
                     </div>
+                </div>
+                <div className="row">
+                    <hr className="hr-styled"/>
                 </div>
                 <div className="row">
                 <div className="col-md">
@@ -24,7 +27,7 @@ const Footer = () => {
 
                 </div>
                 <hr />
-                <div className="col-md ">
+                <div className="col-md text-right">
                     <h5 className="text-uppercase">Links</h5>
 
                     <ul className="list-unstyled">
@@ -47,8 +50,8 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className="footer-copyright text-center py-3">© 2018 Copyright:
-                <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+            <div className="footer-copyright text-center py-3">© 2019 Copyright:
+                <a href="https://mdbootstrap.com/education/bootstrap/"> T-Rex Industries</a>
             </div>
 
             </footer>
