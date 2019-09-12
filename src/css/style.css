@@ -22,12 +22,24 @@ body {
 /* COMMON CLASSES*/
 .primary-text {
 	color: #56a79a;
+	border-bottom: 3px solid
 }
 
 .primary-background {
 	background: #56a79a;
 }
 
+h4 svg {
+	color: #000;
+}
+.card {
+	margin:5px 0;
+}
+.icon-button {
+	border-radius: 60px;
+	box-shadow: 0px 0px 2px #888;
+	padding: 0.5em 0.6em;
+}
 /* HEADER */
 #main-header {
 	border-bottom: 2px solid #56a79a;
@@ -41,15 +53,6 @@ body {
 	color: #56a79a;
 }
 
-/* #navbar li {
-	display: inline;
-	padding-right: 20px;
-	list-style: none;
-} */
-/* #navbar a {
-	text-decoration: none;
-	color: #888;
-} */
 .nav-item {
 	color: #56a79a;
 }
@@ -58,38 +61,6 @@ body {
 	border-bottom: 3px solid #56a79a;
 	padding-bottom: 3px;
 }
-/*
-#showcase {
-	background-image: url('../img/showcase.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	margin-bottom: 30px;
-	width: 100vw;
-	border-bottom:  1px solid #56a79a;
-}
-
-#showcase .row {
-	height: 600px;
-}
-
-#showcase h1 {
-	font-size: 50px;
-	margin: 0;
-	padding-block: 20px;
-}
-
-#showcase p {
-	color: #ccc;
-	margin-bottom: 0;
-}
-
-#showcase .showcase-content {
-	background-color: #333;
-	color: #fff;
-	border-radius: 90px;
-	padding: 40px;
-	opacity: 0.9;
-} */
 
 /* FEATURES */
 #features h2 {
@@ -107,9 +78,41 @@ body {
 	color: #888;
 	margin: 15px 0 15px 0;
 }
+/* GALLERY */
+.gallery-container {
+	background: #333;
+	padding: 20px;
+}
+.gallery-container h2 {
+	color: #ddd;
+}
+.img-container {
+	max-width: 800px;
+	margin: auto;
+	border: #fff solid 3px;
+}
+.main-img img, .img-list img {
+	width: 100%;
+}
 
+.img-list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 5px;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in 1 forwards;
+}
 /* INFO */
-#info {
+/* #info {
 	background:#333 url('../img/info-bg.jpg') no-repeat;
 	color: #fff;
 }
@@ -128,10 +131,10 @@ body {
 #info li {
 	line-height: 2em;
 	font-size: 20px;
-}
+} */
 
 /* COMPANY AREA */
-#company {
+/* #company {
 	background: #333;
 	color: #fff;
 	padding: 10px 0;
@@ -161,7 +164,7 @@ body {
 	color: #fff;
 	padding: 10px;
 	border: 0;
-}
+} */
 
 /* FOOTER */
 #main-footer {
@@ -190,7 +193,7 @@ body {
 }
 
 /* SERVICES */
-#service ul li{
+/* #service ul li{
 	list-style: none;
 	padding: 10px;
 }
@@ -203,7 +206,7 @@ body {
 #service ul li:nth-child(even){
 	background: #56a79a;
 	color: #fff;
-}
+} */
 
 /* CONTACT */
 #contact form {

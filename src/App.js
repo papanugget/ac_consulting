@@ -3,12 +3,17 @@ import './css/style.css';
 // fontawesome icons
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faMapPin, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faMapPin, faPhoneAlt, faMagic, faChartLine, faUserFriends, faClipboardList, faFileInvoiceDollar, faCircle, } from '@fortawesome/free-solid-svg-icons';
+// components
 import Header from './components/Header';
 import Showcase from './components/Showcase';
 import Features from './components/Features';
+import Services from './components/Services';
+import Gallery from './components/Gallery';
 import Footer from './components/Footer';
-library.add(fab, faEnvelope, faMapPin, faPhoneAlt);
+
+library.add(fab, faEnvelope, faMapPin, faPhoneAlt,faMagic, faChartLine, faUserFriends, faClipboardList, faFileInvoiceDollar, faCircle, );
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -23,6 +28,12 @@ class App extends React.Component {
         </div>
         <div className="container-fluid">
           <Features />
+        </div>
+        <div className="container-fluid" id="services">
+          <Services />
+        </div>
+        <div className="gallery-container">
+        <Gallery />
         </div>
         <div>
           <Footer/>
