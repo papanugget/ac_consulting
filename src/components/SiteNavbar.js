@@ -18,7 +18,7 @@ class SiteNavbar extends React.Component {
     render() {
         return (
             <Navbar color="dark" dark expand="md" fixed="top">
-                <NavbarBrand href="/" className="mr-auto">Antoine Cole Consulting</NavbarBrand>
+                <NavbarBrand href="/" className="mr-auto"><span className="primary-text">Antoine Cole Consulting</span></NavbarBrand>
                     <NavbarToggler onClick={this.toggle}/>
                     <Collapse isOpen={this.state.isOpen}  navbar>
                         <Nav className="ml-auto" navbar>

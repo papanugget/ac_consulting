@@ -65,6 +65,7 @@ h4 svg {
 /* FEATURES */
 #features h2 {
 	font-size: 35px;
+	line-height: 1.6;
 	margin: 0;
 	padding-bottom: 10px;
 }
@@ -88,6 +89,7 @@ h4 svg {
 }
 .img-container {
 	background-color: #333;
+	padding: 20px;
 }
 .img-container h2 {
 	color: #fff;
@@ -103,76 +105,6 @@ h4 svg {
 	margin: 0 auto;
 
 }
-/*
-.img-list > img {
-	background-color: #fff;
-	padding: 5px;
-} */
-
-/* Fade in animation */
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
-}
-.fade-in {
-    opacity: 0;
-    animation: fadeIn 0.5s ease-in 1 forwards;
-}
-/* INFO */
-/* #info {
-	background:#333 url('../img/info-bg.jpg') no-repeat;
-	color: #fff;
-}
-
-#info h2 {
-	font-size: 35px;
-	margin: 0;
-	padding-bottom: 10px;
-}
-
-#info ul {
-	list-style: none;
-	padding: 0;
-}
-
-#info li {
-	line-height: 2em;
-	font-size: 20px;
-} */
-
-/* COMPANY AREA */
-/* #company {
-	background: #333;
-	color: #fff;
-	padding: 10px 0;
-}
-
-#company h4 {
-	text-transform: uppercase;
-	margin-bottom: 0;
-}
-
-#company ul {
-	list-style: none;
-	padding: 0;
-	line-height: 2em;
-}
-
-#company ul li {
-	display: inline;
-}
-
-#company input[type="email"] {
-	padding: 7px;
-}
-
-#company button {
-	background: #222;
-	color: #fff;
-	padding: 10px;
-	border: 0;
-} */
 
 /* FOOTER */
 #main-footer {
@@ -200,50 +132,24 @@ h4 svg {
 	}
 }
 
-/* SERVICES */
-/* #service ul li{
-	list-style: none;
-	padding: 10px;
-}
-
-#service ul li:nth-child(odd){
-	background: #333;
-	color: #fff;
-}
-
-#service ul li:nth-child(even){
-	background: #56a79a;
-	color: #fff;
-} */
-
 /* CONTACT */
-#contact form {
-	background: #333;
-	color: #fff;
-	padding: 20px;
+form {
+	margin: 20px;
 }
-
-#contact form input{
+form input{
 	width: 50%;
 	height: 30px;
 	margin-bottom: 10px;
 }
 
-#contact form textarea{
+form textarea{
 	width: 50%;
 	height: 80px;
 }
 
-#contact form button{
-	width: 50%;
-	padding: 10px 0;
-	border: 0;
-	background: #222;
-	color: #fff;
-}
-
-#contact form label{
-	text-transform: uppercase;
+form button{
+	width: 40%;
+	padding: 10px;
 }
 
 @media(max-width: 500px){

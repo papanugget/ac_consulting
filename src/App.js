@@ -10,6 +10,7 @@ import Showcase from './components/Showcase';
 import Features from './components/Features';
 import Services from './components/Services';
 import ImageGallery from './components/ImageGallery';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 library.add(fab, faEnvelope, faMapPin, faPhoneAlt,faMagic, faChartLine, faUserFriends, faClipboardList, faFileInvoiceDollar, faCircle, );
@@ -38,6 +39,10 @@ class App extends React.Component {
 
         <div id="gallery">
           <ImageGallery />
+        </div>
+
+        <div className="container-fluid">
+          <Contact/>
         </div>
 
           <Footer/>
