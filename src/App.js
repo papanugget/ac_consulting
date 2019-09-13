@@ -9,7 +9,7 @@ import Header from './components/Header';
 import Showcase from './components/Showcase';
 import Features from './components/Features';
 import Services from './components/Services';
-import Gallery from './components/Gallery';
+import ImageGallery from './components/ImageGallery';
 import Footer from './components/Footer';
 
 library.add(fab, faEnvelope, faMapPin, faPhoneAlt,faMagic, faChartLine, faUserFriends, faClipboardList, faFileInvoiceDollar, faCircle, );
@@ -23,21 +23,24 @@ class App extends React.Component {
     return (
       <div>
         <Header/>
+
         <div className="container-fluid" id="showcase-gallery">
           <Showcase />
         </div>
-        <div className="container-fluid">
+
+        <div className="container-fluid" id="features">
           <Features />
         </div>
+
         <div className="container-fluid" id="services">
           <Services />
         </div>
-        <div className="gallery-container">
-        <Gallery />
+
+        <div id="gallery">
+          <ImageGallery />
         </div>
-        <div>
+
           <Footer/>
-        </div>
       </div>
     );
   }

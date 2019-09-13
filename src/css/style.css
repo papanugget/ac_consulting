@@ -87,19 +87,27 @@ h4 svg {
 	color: #ddd;
 }
 .img-container {
-	max-width: 800px;
-	margin: auto;
-	border: #fff solid 3px;
+	background-color: #333;
 }
-.main-img img, .img-list img {
-	width: 100%;
+.img-container h2 {
+	color: #fff;
+	margin-bottom:35px;
+	padding-top: 10px;
 }
-
 .img-list {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 5px;
+	display: block;
+	min-height: 1px;
+	width: 100%;
+	border: 1px solid #ddd;
+	overflow: auto;
+	margin: 0 auto;
+
 }
+/*
+.img-list > img {
+	background-color: #fff;
+	padding: 5px;
+} */
 
 /* Fade in animation */
 @keyframes fadeIn {

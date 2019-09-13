@@ -34,7 +34,7 @@ const Footer = () => {
                 <a href="https://papanugget.github.io" target="_blank" rel="noopener noreferrer"> T-Rex Industries</a>
             </div>
 
-            </footer>
+        </footer>
     );
 }
 

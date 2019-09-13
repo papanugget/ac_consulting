@@ -1,127 +1,129 @@
 import React from 'react';
-import ImageItem from './ImageItem';
+import Gallery from 'react-grid-gallery';
+import { faAutoprefixer } from '@fortawesome/free-brands-svg-icons';
+// import ReactBnbGallery from 'react-bnb-gallery';
+// import ImageItem from './ImageItem';
 
 const photos = [
     {
-        photo: "../../img/1.jpg",
+        src: "../../img/1.jpg",
+        thumbnail: "../../img/1.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
-      }, {
-        photo: "../../img/2.jpg",
+      },
+      {
+        src: "../../img/2.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
-      }, {
-        photo: "../../img/3.jpg",
+        thumbnail: "../../img/2.jpg",
+      },
+      {
+        src: "../../img/3.jpg",
         caption: "",
-        subcaption: "",
+        thumbnail: "../../img/3.jpg",
+      },
+      {
+        src: "../../img/4.jpg",
+        caption: "",
+        thumbnail: "../../img/4.jpg",
+      },
+      {
+        src: "../../img/5.jpg",
+        caption: "",
         thumbnail: "",
       },
       {
-        photo: "../../img/5.jpg",
+        src: "../../img/6.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
+        thumbnail: "../../img/6.jpg",
       },
       {
-        photo: "../../img/7.jpg",
+        src: "../../img/7.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
+        thumbnail: "../../img/7.jpg",
       },
       {
-        photo: "../../img/8.jpg",
+        src: "../../img/8.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
+        thumbnail: "../../img/8.jpg",
       },
       {
-        photo: "../../img/9.jpg",
+        src: "../../img/9.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
+        thumbnail: "../../img/9.jpg",
       },
       {
-        photo: "../../img/11.jpg",
+        src: "../../img/10.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
+        thumbnail: "../../img/10.jpg",
       },
       {
-        photo: "../../img/13.jpg",
+        src: "../../img/11.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
+        thumbnail: "../../img/11.jpg",
       },
       {
-        photo: "../../img/14.jpg",
+        src: "../../img/12.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
+        thumbnail: "../../img/12.jpg",
       },
       {
-        photo: "../../img/15.jpg",
+        src: "../../img/13.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
+        thumbnail: "../../img/13.jpg",
       },
       {
-        photo: "../../img/16.jpg",
+        src: "../../img/14.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
+        thumbnail: "../../img/14.jpg",
       },
       {
-        photo: "../../img/17.jpg",
+        src: "../../img/15.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
+        thumbnail: "../../img/15.jpg",
       },
       {
-        photo: "../../img/18.jpg",
+        src: "../../img/16.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
+        thumbnail: "../../img/16.jpg",
       },
       {
-        photo: "../../img/19.jpg",
+        src: "../../img/17.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
+        thumbnail: "../../img/17.jpg",
       },
       {
-        photo: "../../img/21.jpg",
+        src: "../../img/18.jpg",
         caption: "",
-        subcaption: "",
-        thumbnail: "",
+        thumbnail: "../../img/18.jpg",
+      },
+      {
+        src: "../../img/19.jpg",
+        caption: "",
+        thumbnail: "../../img/19.jpg",
+      },
+      {
+        src: "../../img/20.jpg",
+        caption: "",
+        thumbnail: "../../img/20.jpg",
+      },
+      {
+        src: "../../img/21.jpg",
+        caption: "",
+        thumbnail: "../../img/21.jpg",
       },
 
 ];
 
 const ImageList = () => {
-    const imgList = photos.map(photo => {
-        return <ImageItem photo={photo}/>
-    });
-    const opacity = 0.6;
-    const currentImg = document.querySelector('#current-img');
+  return(
+    <div className="img-list">
+      <Gallery
+          images={photos}
+          enableLightbox={true}
+          enableImageSelection={false}
+      />
+  </div>
 
-    return (
-      <React.Fragment>
-        <h2><span className="primary-text">Our</span> AirBnb</h2>
-          <div className="img-container">
-              <div className="main-img">
-                  <img src={photos[0].photo} id="current-img" alt="" key="" style={{opacity}}/>
-              </div>
-              <div className="img-list">
-                  {imgList}
-              </div>
-          </div>
-        </React.Fragment>
-    );
+  );
 }
-    // have a grid / flex container to show image list
-    // map through photos array
-    // use template literals to create photo elements
 
 export default ImageList;
