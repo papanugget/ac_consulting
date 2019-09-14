@@ -6,26 +6,26 @@ import {
     CarouselIndicators,
     CarouselCaption
 } from 'reactstrap';
-// import '../img/';
+// import '.../img/';
 
 const imgItems = [
     {
-        src: './img/calculator.jpg',
+        src: '/ac_consulting/img/calculator.jpg',
         altText: 'Calculator',
         caption: ''
     },
     {
-        src: './img/stacks.jpg',
+        src: '/ac_consulting/img/stacks.jpg',
         altText: 'Coins',
         caption: 'Build a nest egg'
     },
     {
-        src: './img/bookkeep.jpg',
+        src: '/ac_consulting/img/bookkeep.jpg',
         altText: 'Bookkeeping',
         caption: 'Keep your books in order'
     },
     {
-        src: './img/laptop.jpg',
+        src: '/ac_consulting/img/laptop.jpg',
         altText: 'Laptop and Charts',
         caption: 'Chart your financial future'
     },

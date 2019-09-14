@@ -1,12 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem,  } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink  } from 'reactstrap';
 import Home from './Home';
 import ServicesList from './ServicesList';
 import ImageGallery from './ImageGallery';
 import Contact from './Contact';
 import About from './About';
-import { BrowserRouter as Router, Route, Switch,  Link as NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch,  Link } from 'react-router-dom';
 
 class SiteNavbar extends React.Component {
     constructor(props) {
@@ -25,36 +25,38 @@ class SiteNavbar extends React.Component {
         return (
             <Router>
                  <Navbar color="dark" dark expand="md" fixed="top" id="navbar">
-                    <NavbarBrand href="/home" className="mr-auto">Antoine Cole Consulting</NavbarBrand>
+                    <NavbarBrand href="/ac_consulting/" className="mr-auto">Antoine Cole Consulting</NavbarBrand>
                         <NavbarToggler onClick={this.toggle}/>
                         <Collapse isOpen={this.state.isOpen}  navbar>
                             <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink className="nav-link" exact to="/home">
+                                <Link className="nav-link" to="/ac_consulting/" activeClassName="current">
                                     Home
-                                </NavLink>
+                                </Link>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" exact to="/services">
+                                <Link className="nav-link" to="/ac_consulting/services" activeClassName="current">
                                     Services
-                                </NavLink>
+                                </Link>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" exact to="/gallery">
+                                <Link className="nav-link"  to="/ac_consulting/gallery"
+                                activeClassName="current">
                                     AirBnb
-                                </NavLink>
+                                </Link>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link"
-                                exact to="/contact">
+                                <Link className="nav-link"
+                                to="/ac_consulting/contact"
+                                activeClassName="current">
                                     Contact
-                                </NavLink>
+                                </Link>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link"
-                                exact to="/about">
+                                <Link className="nav-link"
+                                to="/ac_consulting/about" activeClassName="current">
                                     About
-                                </NavLink>
+                                </Link>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="https://instagram.com/come_stay_at_the_rockaways" target="_blank" rel="noopener noreferrer" className="nav-link">
@@ -76,11 +78,11 @@ class SiteNavbar extends React.Component {
                 </Navbar>
 
                 <Switch>
-                    <Route path="/home" component={Home} exact/>
-                    <Route path="/services" component={ServicesList} exact/>
-                    <Route path="/gallery" component={ImageGallery} exact/>
-                    <Route path="/contact" component={Contact} exact/>
-                    <Route path="/about" component={About} exact/>
+                    <Route path="/ac_consulting/" component={Home} exact/>
+                    <Route path="/ac_consulting/services" component={ServicesList} exact/>
+                    <Route path="/ac_consulting/gallery" component={ImageGallery} exact/>
+                    <Route path="/ac_consulting/contact" component={Contact} exact/>
+                    <Route path="/ac_consulting/about" component={About} exact/>
                 </Switch>
 
             </Router>

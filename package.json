@@ -2,7 +2,7 @@
   "name": "ac_consulting_react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://papanugget.github.io/ac_consulting",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.10.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.22",
