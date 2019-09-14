@@ -126,10 +126,10 @@ const ImageList = () => {
           <h1>Come Stay At A Beautiful Villa In The Rockaways</h1>
           <p className="lead">Brand new 1 bedroom villa, sleeps upto 6 guests, 10 mins from JFK airport via A train, 5mins walk to the beach.</p>
           <hr className="my-2" />
-          <p>My villa is brand spanking NEW, clean, bright, and airy. Everything in the villa is new from the bed to the cutlery. The sofa bed has a memory foam mattress in it and the queen size bed in the bedroom is a pillow top. Please come and see for yourself, and I guarantee that you will be very very pleased with everything in the villa.
-          I provide fresh bagels, and there is a coffee machine in the kitchen.
-          Complimentary bottles of wine (red and white), beers, water and childrens drinks.
-          Organic home cooked meals cooked for an extra fee upon request.</p>
+          <p>My villa is brand spanking NEW, clean, bright, and airy. Everything in the villa is new from the bed to the cutlery. The sofa bed has a memory foam mattress in it and the queen size bed in the bedroom is a pillow top. Please come and see for yourself and I guarantee that you will be very, very pleased with everything in the villa.
+          I provide fresh bagels and there is a coffee machine in the kitchen.
+          Complimentary bottles of wine (red & white), beers, water, and childrens drinks.
+          Organic homemade meals cooked for an extra fee upon request.</p>
           <p className="lead">
             <a href="https://www.airbnb.com/rooms/27373231?source_impression_id=p3_1568470454_FJz03r0O%2BM6iHpbw" target="_blank" rel="noopener noreferrer"className="btn btn-info">Learn More</a>
           </p>

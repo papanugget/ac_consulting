@@ -3,7 +3,9 @@ import Services from './subcomponents/Services';
 
 const ServicesList = () => {
     return(
-        <Services/>
+        <div className="container-fluid" id="services-list">
+            <Services />
+        </div>
     );
 }
 

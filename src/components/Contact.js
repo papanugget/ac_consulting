@@ -3,7 +3,9 @@ import ContactForm from './subcomponents/ContactForm';
 
 const Contact = () => {
     return(
-        <ContactForm />
+        <div className="container-fluid">
+            <ContactForm />
+        </div>
     );
 }
 

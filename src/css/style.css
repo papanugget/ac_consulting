@@ -40,12 +40,6 @@ h4 svg {
 	box-shadow: 0px 0px 2px #888;
 	padding: 0.5em 0.6em;
 }
-/* HEADER */
-#main-header {
-	border-bottom: 2px solid #56a79a;
-	margin-bottom: 55px;
-	color: #56a79a;
-}
 
 /* NAVBAR */
 #navbar {
@@ -53,15 +47,19 @@ h4 svg {
 	color: #56a79a;
 }
 
-.nav-item {
-	color: #56a79a;
-}
 #navbar li.current a, #navbar a:hover {
 	color: #56a79a;
 	border-bottom: 3px solid #56a79a;
 	padding-bottom: 3px;
 }
+/* SHOWCASE, SERVICES, IMAGES, CONTACT, ABOUT MARGINS */
+#showcase-gallery {
+	margin-top: 55px;
+}
 
+#services-list {
+	margin-top: 100px;
+}
 /* FEATURES */
 #features h2 {
 	font-size: 35px;
@@ -88,6 +86,7 @@ h4 svg {
 	color: #ddd;
 }
 .img-container {
+	margin-top: 55px;
 	background-color: #333;
 	padding: 20px;
 }
@@ -97,15 +96,26 @@ h4 svg {
 	padding-top: 10px;
 }
 .img-list {
+	/* text-align: center; */
 	display: block;
 	min-height: 1px;
 	width: 100%;
-	border: 1px solid #ddd;
+	/* border: 1px solid #ddd; */
 	overflow: auto;
 	margin: 0 auto;
-
 }
 
+.ReactGridGallery_tile-viewport{
+	border: 3px solid #fff;
+	/* box-sizing: border-box; */
+	padding: 5px;
+	border-radius: 5px;
+	/* margin: 5px; */
+}
+#about-jumbo {
+	margin-top: 55px;
+	margin-bottom: 0;
+}
 /* FOOTER */
 #main-footer {
 	padding-top: 30px;
@@ -134,7 +144,7 @@ h4 svg {
 
 /* CONTACT */
 form {
-	margin: 20px;
+	margin: 100px 20px 20px 20px;
 }
 form input{
 	width: 50%;
