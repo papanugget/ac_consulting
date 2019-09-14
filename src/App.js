@@ -6,49 +6,44 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faMapPin, faPhoneAlt, faMagic, faChartLine, faUserFriends, faClipboardList, faFileInvoiceDollar, faCircle, } from '@fortawesome/free-solid-svg-icons';
 // components
 import Header from './components/Header';
-import Showcase from './components/Showcase';
-import Features from './components/Features';
-import Services from './components/Services';
+import Home from './components/Home';
+import ServicesList from './components/ServicesList';
 import ImageGallery from './components/ImageGallery';
 import Contact from './components/Contact';
+import About from './components/About';
 import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 library.add(fab, faEnvelope, faMapPin, faPhoneAlt,faMagic, faChartLine, faUserFriends, faClipboardList, faFileInvoiceDollar, faCircle, );
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {  }
-  }
-  render() {
+const App = () => {
     return (
-      <div>
-        <Header/>
+      <Router>
+        <div>
+            <Header />
 
-        <div className="container-fluid" id="showcase-gallery">
-          <Showcase />
-        </div>
+            <Home />
 
-        <div className="container-fluid" id="features">
-          <Features />
-        </div>
+            <div className="container-fluid" id="services">
+              <ServicesList />
+            </div>
 
-        <div className="container-fluid" id="services">
-          <Services />
-        </div>
+            <div id="gallery">
+              <ImageGallery />
+            </div>
 
-        <div id="gallery">
-          <ImageGallery />
-        </div>
+            <div className="container-fluid">
+              <Contact />
+            </div>
 
-        <div className="container-fluid">
-          <Contact/>
-        </div>
+            <div className="container-fluid">
+              <About />
+            </div>
 
-          <Footer/>
-      </div>
+              <Footer />
+          </div>
+      </Router>
     );
-  }
 }
 
 export default App;

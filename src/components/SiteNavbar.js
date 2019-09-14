@@ -34,7 +34,7 @@ class SiteNavbar extends React.Component {
                         </NavItem>
                         <NavItem>
                             <NavLink href="/gallery/">
-                                Gallery
+                                AirBnb
                             </NavLink>
                         </NavItem>
                         <NavItem>

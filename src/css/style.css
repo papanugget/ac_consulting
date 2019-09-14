@@ -12,7 +12,7 @@ body {
 	margin: auto;
 }
 #showcase-gallery img {
-	width: 100%;
+	max-width: 800px;
 }
 
 .container {

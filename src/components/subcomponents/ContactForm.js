@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ButtonGroup, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, } from 'reactstrap';
 
 const ContactForm = () => {
     return(
@@ -34,8 +34,13 @@ const ContactForm = () => {
                     <option value="Human resources &amp; Company start up">Human resources &amp; Company start up</option>
                     <option value="Human resources &amp; Payroll">Human resources &amp; Payroll</option>
                     <option value="Company start up &amp; Payroll">Company start up &amp; Payroll</option>
+                    <option value="AirBnb">AirBnb</option>
                     <option value="All">All</option>
                 </Input>
+                </FormGroup>
+                <FormGroup>
+                    <Label for="message">Your Message</Label>
+                    <Input type="textarea" name="message" id="message" />
                 </FormGroup>
                     <Button outline color="danger" type="reset">Cancel</Button>
 
