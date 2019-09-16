@@ -79,10 +79,11 @@ class SiteNavbar extends React.Component {
 
                 <Switch>
                     <Route path="/ac_consulting/" component={Home} exact/>
-                    <Route path="/ac_consulting/services" component={ServicesList} exact/>
-                    <Route path="/ac_consulting/gallery" component={ImageGallery} exact/>
-                    <Route path="/ac_consulting/contact" component={Contact} exact/>
-                    <Route path="/ac_consulting/about" component={About} exact/>
+                    <Route path="/ac_consulting/services" component={ServicesList} />
+                    <Route path="/ac_consulting/gallery" component={ImageGallery} />
+                    <Route path="/ac_consulting/contact" component={Contact} />
+                    <Route path="/ac_consulting/about" component={About} />
+                    <Route component={Home}/>
                 </Switch>
 
             </Router>

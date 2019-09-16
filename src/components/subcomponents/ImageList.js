@@ -108,6 +108,56 @@ const photos = [
         caption: "Jacuzzi, Deck Chairs, & Floating Chair",
         thumbnail: "/ac_consulting/img/21.jpg",
       },
+      {
+        src: "/ac_consulting/img/22.jpg",
+        caption: "",
+        thumbnail: "/ac_consulting/img/22.jpg",
+      },
+      {
+        src: "/ac_consulting/img/23.jpg",
+        caption: "",
+        thumbnail: "/ac_consulting/img/23.jpg",
+      },
+      {
+        src: "/ac_consulting/img/24.jpg",
+        caption: "",
+        thumbnail: "/ac_consulting/img/24.jpg",
+      },
+      {
+        src: "/ac_consulting/img/25.jpg",
+        caption: "",
+        thumbnail: "/ac_consulting/img/25.jpg",
+      },
+      {
+        src: "/ac_consulting/img/26.jpg",
+        caption: "",
+        thumbnail: "/ac_consulting/img/26.jpg",
+      },
+      {
+        src: "/ac_consulting/img/27.jpg",
+        caption: "",
+        thumbnail: "/ac_consulting/img/27.jpg",
+      },
+      {
+        src: "/ac_consulting/img/28.jpg",
+        caption: "",
+        thumbnail: "/ac_consulting/img/28.jpg",
+      },
+      {
+        src: "/ac_consulting/img/29.jpg",
+        caption: "",
+        thumbnail: "/ac_consulting/img/29.jpg",
+      },
+      {
+        src: "/ac_consulting/img/30.jpg",
+        caption: "",
+        thumbnail: "/ac_consulting/img/30.jpg",
+      },
+      {
+        src: "/ac_consulting/img/31.jpg",
+        caption: "",
+        thumbnail: "/ac_consulting/img/31.jpg",
+      },
 ];
 
 const ImageList = () => {
