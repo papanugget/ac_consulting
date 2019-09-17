@@ -49,11 +49,9 @@ h4 svg {
 
 #navbar li.current a, #navbar a:hover {
 	color: #56a79a;
-	border-bottom: 3px solid #56a79a;
-	padding-bottom: 3px;
 }
 
-/* SHOWCASE, SERVICES, IMAGES, CONTACT, ABOUT MARGINS */
+/* SHOWCASE, SERVICES MARGINS */
 #showcase-gallery {
 	margin-top: 55px;
 }
@@ -108,10 +106,8 @@ h4 svg {
 
 .ReactGridGallery_tile-viewport{
 	border: 3px solid #fff;
-	/* box-sizing: border-box; */
 	padding: 5px;
 	border-radius: 5px;
-	/* margin: 5px; */
 }
 #about-jumbo {
 	margin-top: 55px;

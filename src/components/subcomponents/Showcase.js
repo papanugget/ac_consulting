@@ -17,17 +17,17 @@ const imgItems = [
     {
         src: './img/stacks.jpg',
         altText: 'Coins',
-        caption: 'Build a nest egg'
+        caption: ''
     },
     {
         src: './img/bookkeep.jpg',
         altText: 'Bookkeeping',
-        caption: 'Keep your books in order'
+        caption: ''
     },
     {
         src: './img/laptop.jpg',
         altText: 'Laptop and Charts',
-        caption: 'Chart your financial future'
+        caption: ''
     },
 ];
 

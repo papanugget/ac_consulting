@@ -3,7 +3,7 @@ import { Button, Form, FormGroup, Label, Input, } from 'reactstrap';
 
 const ContactForm = () => {
     return(
-        <Form action="https://formspree.io/albertchan1110@gmail.com" method="POST" >
+        <Form action="https://formspree.io/antoinecole@gmail.com" method="POST" >
             <h2><span className="primary-text">Contact</span> Us</h2>
             <br/>
             <FormGroup>
