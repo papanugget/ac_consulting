@@ -10,22 +10,22 @@ import {
 
 const imgItems = [
     {
-        src: '/ac_consulting/img/calculator.jpg',
+        src: './img/calculator.jpg',
         altText: 'Calculator',
         caption: ''
     },
     {
-        src: '/ac_consulting/img/stacks.jpg',
+        src: './img/stacks.jpg',
         altText: 'Coins',
         caption: 'Build a nest egg'
     },
     {
-        src: '/ac_consulting/img/bookkeep.jpg',
+        src: './img/bookkeep.jpg',
         altText: 'Bookkeeping',
         caption: 'Keep your books in order'
     },
     {
-        src: '/ac_consulting/img/laptop.jpg',
+        src: './img/laptop.jpg',
         altText: 'Laptop and Charts',
         caption: 'Chart your financial future'
     },
