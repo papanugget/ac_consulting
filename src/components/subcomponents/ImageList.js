@@ -3,160 +3,185 @@ import Gallery from 'react-grid-gallery';
 import { Jumbotron } from 'reactstrap';
 
 const photos = [
-    {
+      {
+        src: "./img/32.jpg",
+        caption: "",
+        thumbnail: "./img/32th.jpg",
+      },
+      {
+        src: "./img/33.jpg",
+        caption: "Anniversary Surprise",
+        thumbnail: "./img/33th.jpg",
+      },
+      {
+        src: "./img/34.jpg",
+        caption: "",
+        thumbnail: "./img/34th.jpg",
+      },
+      {
+        src: "./img/35.jpg",
+        caption: "Birthday Surprise",
+        thumbnail: "./img/35th.jpg",
+      },
+      {
+        src: "./img/36.jpg",
+        caption: "Birthday Surprise 2",
+        thumbnail: "./img/36th.jpg",
+      },
+      {
         src: "./img/1.jpg",
-        thumbnail: "./img/1.jpg",
+        thumbnail: "./img/1th.jpg",
         caption: "Backyard BBQ",
       },
       {
         src: "./img/2.jpg",
         caption: "Backyard BBQ 2",
-        thumbnail: "./img/2.jpg",
+        thumbnail: "./img/2th.jpg",
       },
       {
         src: "./img/3.jpg",
         caption: "Bedroom",
-        thumbnail: "./img/3.jpg",
+        thumbnail: "./img/3th.jpg",
       },
       {
         src: "./img/4.jpg",
         caption: "Bedroom 2",
-        thumbnail: "./img/4.jpg",
+        thumbnail: "./img/4th.jpg",
       },
       {
         src: "./img/5.jpg",
         caption: "Bedroom 3",
-        thumbnail: "./img/5.jpg",
+        thumbnail: "./img/5th.jpg",
       },
       {
         src: "./img/6.jpg",
         caption: "Bathroom",
-        thumbnail: "./img/6.jpg",
+        thumbnail: "./img/6th.jpg",
       },
       {
         src: "./img/7.jpg",
         caption: "Bathroom 2",
-        thumbnail: "./img/7.jpg",
+        thumbnail: "./img/7th.jpg",
       },
       {
         src: "./img/8.jpg",
         caption: "Bathroom 3",
-        thumbnail: "./img/8.jpg",
+        thumbnail: "./img/8th.jpg",
       },
       {
         src: "./img/9.jpg",
         caption: "Backyard Tiki Bar",
-        thumbnail: "./img/9.jpg",
+        thumbnail: "./img/9th.jpg",
       },
       {
         src: "./img/10.jpg",
         caption: "Jacuzzi ",
-        thumbnail: "./img/10.jpg",
+        thumbnail: "./img/10th.jpg",
       },
       {
         src: "./img/11.jpg",
         caption: "Jacuzzi 2",
-        thumbnail: "./img/11.jpg",
+        thumbnail: "./img/11th.jpg",
       },
       {
         src: "./img/12.jpg",
         caption: "Jacuzzi 3",
-        thumbnail: "./img/12.jpg",
+        thumbnail: "./img/12th.jpg",
       },
       {
         src: "./img/13.jpg",
         caption: "Backyard Firepit",
-        thumbnail: "./img/13.jpg",
+        thumbnail: "./img/13th.jpg",
       },
       {
         src: "./img/14.jpg",
         caption: "Evening",
-        thumbnail: "./img/14.jpg",
+        thumbnail: "./img/14th.jpg",
       },
       {
         src: "./img/15.jpg",
         caption: "Deck Chairs",
-        thumbnail: "./img/15.jpg",
+        thumbnail: "./img/15th.jpg",
       },
       {
         src: "./img/16.jpg",
         caption: "Lawn & Deck Chairs",
-        thumbnail: "./img/16.jpg",
+        thumbnail: "./img/16th.jpg",
       },
       {
         src: "./img/17.jpg",
         caption: "Deck Chairs 2",
-        thumbnail: "./img/17.jpg",
+        thumbnail: "./img/17th.jpg",
       },
       {
         src: "./img/18.jpg",
         caption: "Deck Chairs 3",
-        thumbnail: "./img/18.jpg",
+        thumbnail: "./img/18th.jpg",
       },
       {
         src: "./img/19.jpg",
         caption: "Backyard Tiki Bar 2",
-        thumbnail: "./img/19.jpg",
+        thumbnail: "./img/19th.jpg",
       },
       {
         src: "./img/20.jpg",
         caption: "Backyard Tiki Bar 3",
-        thumbnail: "./img/20.jpg",
+        thumbnail: "./img/20th.jpg",
       },
       {
         src: "./img/21.jpg",
         caption: "Jacuzzi, Deck Chairs, & Floating Chair",
-        thumbnail: "./img/21.jpg",
+        thumbnail: "./img/21th.jpg",
       },
       {
         src: "./img/22.jpg",
         caption: "",
-        thumbnail: "./img/22.jpg",
+        thumbnail: "./img/22th.jpg",
       },
       {
         src: "./img/23.jpg",
         caption: "",
-        thumbnail: "./img/23.jpg",
+        thumbnail: "./img/23th.jpg",
       },
       {
         src: "./img/24.jpg",
         caption: "",
-        thumbnail: "./img/24.jpg",
+        thumbnail: "./img/24th.jpg",
       },
       {
         src: "./img/25.jpg",
         caption: "",
-        thumbnail: "./img/25.jpg",
+        thumbnail: "./img/25th.jpg",
       },
       {
         src: "./img/26.jpg",
         caption: "",
-        thumbnail: "./img/26.jpg",
+        thumbnail: "./img/26th.jpg",
       },
       {
         src: "./img/27.jpg",
         caption: "",
-        thumbnail: "./img/27.jpg",
+        thumbnail: "./img/27th.jpg",
       },
       {
         src: "./img/28.jpg",
         caption: "",
-        thumbnail: "./img/28.jpg",
+        thumbnail: "./img/28th.jpg",
       },
       {
         src: "./img/29.jpg",
         caption: "",
-        thumbnail: "./img/29.jpg",
+        thumbnail: "./img/29th.jpg",
       },
       {
         src: "./img/30.jpg",
         caption: "",
-        thumbnail: "./img/30.jpg",
+        thumbnail: "./img/30th.jpg",
       },
       {
         src: "./img/31.jpg",
         caption: "",
-        thumbnail: "./img/31.jpg",
+        thumbnail: "./img/31th.jpg",
       },
 ];
 
